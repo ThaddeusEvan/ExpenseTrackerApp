@@ -1,7 +1,4 @@
-import 'dart:math';
-
 import 'package:expense_tracker/models/expense_data.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ExpenseItem extends StatelessWidget {

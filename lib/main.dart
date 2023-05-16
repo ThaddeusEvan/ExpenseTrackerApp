@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 
 import 'package:expense_tracker/widget/expense.dart';
 
-void main(){
+void main() {
   runApp(
-    const MaterialApp(
-      home: Expense(),
+    MaterialApp(
+      theme: ThemeData(useMaterial3: true),
+      home: const Expense(),
     ),
   );
 }
